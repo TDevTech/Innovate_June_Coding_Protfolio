@@ -1,0 +1,18 @@
+
+#text_var = "Wellcom to Code Nation"
+text_var = input('Enter a string:')
+
+print (text_var, len(text_var))
+
+text_len = len(text_var)
+print (text_len)
+
+#def odd_even_check (test_var):
+
+if text_len %2 == 0:
+    print(f"{text_var}, {text_len} This is an Even Number")
+elif text_len %2 !=0:
+    print (f"{text_var}, {text_len} This is an odd Number")
+else:
+    print ("This is not Number")
+
