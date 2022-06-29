@@ -264,7 +264,7 @@ while myfav_num != rand_num:
     print(f"Your number {myfav_num} and {rand_num} do not match\n")
     
     rand_num = random.randint(0,49)
-    rand_num ==  myfav_num
+    #rand_num ==  myfav_num
     #print(f"Your number {myfav_num} and {rand_num} do match\n")
     print (f"Your {myfav_num} has been found and do match the computer {rand_num}...!! \n")
 
