@@ -35,12 +35,12 @@
 
 ## Activity 2
 
-# countrys = {
-#     "United Kingdom" : "London",
-#     "France" :"Paris",
-#     "Germany" : "Berlin",
-#     "Spain" : "Madrid",
-#     "Italy" : "Rome"}
+countrys = {
+    "United Kingdom" : "London",
+    "France" :"Paris",
+    "Germany" : "Berlin",
+    "Spain" : "Madrid",
+    "Italy" : "Rome"}
 
 # print(countrys)
 
@@ -53,6 +53,22 @@
 
 #countrys.setdefault ({'China': 'Bejen', 'Canada': 'Ottawa'})
 #print(countrys)
+###
+for i in countrys.items():
+    print (i)
+###
+print (list(countrys))
+###
+for x in countrys.keys():
+    print(x + ":" + countrys[x])
+###
+countrys.update ({
+            "United Kingdom" : "English",
+            "France" :"French",
+            "Germany" : "Berlin",
+            "Spain" : "Spanish",
+            "Italy" : "Italian" })
+
 
 ### Activity 3 fav_songs
 
@@ -133,4 +149,14 @@ songs_dict = {
             "Genre" :"Smooth Jazz",
             "Release_year":1999
             }
-print (songs_dict)
+    print (songs_dict)
+
+
+songs_dic.append({
+            "Artist":"George Benson",
+            "Song_name":"Affirmation",
+            "Genre" :"Smooth Jazz",
+            "Release_year": "1976" })
+    print (songs_dict)          
+
+
