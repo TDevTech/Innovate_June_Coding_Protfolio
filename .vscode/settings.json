@@ -1,5 +1,7 @@
 {
     "[markdown]": {
         "editor.accessibilitySupport": "off"
-    }
+    },
+    "liveServer.settings.port": 5684,
+    "editor.hover.enabled": false
 }

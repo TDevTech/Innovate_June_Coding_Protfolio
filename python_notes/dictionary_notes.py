@@ -74,33 +74,33 @@ countrys.update ({
 
 # keys: artist, song_name, genre, release_year
 
-# fav_songs = {
-#     "George Benson":"Affirmation," "Smooth Jazz," "1976",
-#     "Bob James":"Since I Fell For You":"Smooth Jazz":"1986",
-#     "Bob James":"Raise The Roof":"Smooth Jazz":"1999",
-#     "Bony James":"Joy Ride":"Smooth Jazz":"1999", 
-#     "Ron Fattorusso": "No Es Facil" : "Latin Smooth Jazz" : "2004",
-#     "Incognito":"Pieces Of A Dream" : "Smooth Jazz" : "1993",
-#     "Sade":"Your Love Is King" : "Smooth Jazz & soul" : "1983",
-#     "Chris Botti":"Good Morning Heartache" : "Jazz & RnB" : "2005",
-#     "Norman Brown":"After The Storm" : "Smooth Jazz" : "1994",
-#     "Grover Washington Jr":"Take Five" : "Smooth Jazz" : "1992"}
+fav_songs = {
+    "George Benson":["Affirmation", "Smooth Jazz", "1976"],
+    "Bob James":"Since I Fell For You":"Smooth Jazz":"1986",
+    "Bob James":"Raise The Roof":"Smooth Jazz":"1999",
+    "Bony James":"Joy Ride":"Smooth Jazz":"1999", 
+    "Ron Fattorusso": "No Es Facil" : "Latin Smooth Jazz" : "2004",
+    "Incognito":"Pieces Of A Dream" : "Smooth Jazz" : "1993",
+    "Sade":"Your Love Is King" : "Smooth Jazz & soul" : "1983",
+    "Chris Botti":"Good Morning Heartache" : "Jazz & RnB" : "2005",
+    "Norman Brown":"After The Storm" : "Smooth Jazz" : "1994",
+    "Grover Washington Jr":"Take Five" : "Smooth Jazz" : "1992"}
 
 
 # fav_songs = {
-#             'track00' : [ 'Artist':'null','Song_name':'','Genre' :'','Release_year':''],
-#             'track01' : [ 'Artist':'George Benson','Song_name':'Affirmation','Genre' :'Smooth Jazz','Release_year':'1976'],
-#             'track02' : [ 'Artist':'Bob James','Song_name':'Since I Fell For You','Genre' :'Smooth Jazz','Release_year':'1986'],
-#             'track03' : [ 'Artist':'Bob James','Song_name':'Raise The Roof','Genre' :'Smooth Jazz','Release_year':'1999'],
-#             'track04' : [ 'Artist':'Bony James','Song_name':'Joy Ride','Genre' :'','Release_year':'1999'],
-#             'track05' : [ 'Artist':'Ron Fattorusso','Song_name':'No Es Facil','Genre' :'Latin Smooth Jazz','Release_year':'2004'],
-#             'track06' : [ 'Artist':'Incognito','Song_name':'Pieces Of A Dream','Genre' :'Smooth Jazz','Release_year':'1993'],
-#             'track07' : [ 'Artist':'Sade','Song_name':'Love Is King','Genre' :'Smooth Jazz & soul','Release_year':'1983'],
-#             'track08' : [ 'Artist':'Chris Botti','Song_name':'Good Morning Heartache','Genre' :'Jazz & RnB','Release_year':'2005'],
-#             'track09' : [ 'Artist':'Norman Brown','Song_name':'After The Storm','Genre' :'Smooth Jazz','Release_year':'1994'],
-#             'track10' : [ 'Artist':'Grover Washington Jr','Song_name':'Take Five','Genre' :'Smooth Jazz','Release_year':'1992']
-#             }
-# #import string
+            # # 'track00' : { 'Artist''null','Song_name':'','Genre' :'','Release_year':''},
+            # # 'track01' : { 'Artist':'George Benson','Song_name':'Affirmation','Genre' :'Smooth Jazz','Release_year':'1976'},
+            # # 'track02' : [ 'Artist':'Bob James','Song_name':'Since I Fell For You','Genre' :'Smooth Jazz','Release_year':'1986'],
+            # # 'track03' : [ 'Artist':'Bob James','Song_name':'Raise The Roof','Genre' :'Smooth Jazz','Release_year':'1999'],
+            # # 'track04' : [ 'Artist':'Bony James','Song_name':'Joy Ride','Genre' :'','Release_year':'1999'],
+            # # 'track05' : [ 'Artist':'Ron Fattorusso','Song_name':'No Es Facil','Genre' :'Latin Smooth Jazz','Release_year':'2004'],
+            # # 'track06' : [ 'Artist':'Incognito','Song_name':'Pieces Of A Dream','Genre' :'Smooth Jazz','Release_year':'1993'],
+            # # 'track07' : [ 'Artist':'Sade','Song_name':'Love Is King','Genre' :'Smooth Jazz & soul','Release_year':'1983'],
+            # # 'track08' : [ 'Artist':'Chris Botti','Song_name':'Good Morning Heartache','Genre' :'Jazz & RnB','Release_year':'2005'],
+            # # 'track09' : [ 'Artist':'Norman Brown','Song_name':'After The Storm','Genre' :'Smooth Jazz','Release_year':'1994'],
+            # # 'track10' : [ 'Artist':'Grover Washington Jr','Song_name':'Take Five','Genre' :'Smooth Jazz','Release_year':'1992']
+            # }
+#import string
 
 # keys = { 'Artist':'','Song_name':'','Genre' :'','Release_year':''}
 

@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poiret+One&display=swap");
+
+/* imported font families: "Poiret One", cursive; font-family: "Josefin Sans", sans-serif;    */
+
+$mainAccent: #6e25ed;
+$headingFont: "Poiret One", cursive;
+$contentFonte : "Josefin Sans", sans-serif;
+// $special:
+// $textBold: font-weight bold;
+
+
+@mixin heading($special){
+font-family: $headingFont;
+color: $special;
+text-align: center;
+margin-top: 0px;
+// font-size: 3em;
+}
+
+/* elements */
+
+body {
+  background-color: #465362;
+  margin: 0px;
+}
+
+h1 {
+  // font-family: $headingFont;
+  // color: $mainAccent;
+  // text-align: center;
+  // margin-top: 0px;
+  @include heading(red);
+  font-size: 5em;
+}
+
+h3 {
+  // font-family: "Poiret One", cursive;
+  // color: $mainAccent;
+  // text-align: center;
+  // margin-top: 0px;
+  @include heading(rgb(99, 0, 192));
+  font-size: 3em;
+  font-weight:bold;
+}
+
+button {
+  background-color: $mainAccent;
+  color: #eccee7;
+  border: #4f4db3 2px solid;
+  padding: 15px;
+}
+
+button:hover {
+  background-color: #4f4db3;
+  color: #eccee7;
+  border: $mainAccent 2px solid;
+  padding: 15px;
+}
+
+nav {
+  padding: 1% 0% 1% 0%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #face0c;
+  margin-bottom: 1%;
+}
+
+nav a {
+  font-weight: 700;
+  color: #4f4db3;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: $mainAccent;
+  text-decoration: none;
+}
+
+/* classes */
+.content {
+  font-family: $contentFonte;
+  color: #011936;
+  font-size: 1.1em;
+  width: 70%;
+  border-top: #face0c 10px solid;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0f0f0;
+  padding: 0px 10px 0px 10px;
+}
+
+.inner {
+  font-family: $contentFonte;
+  color: #011936;
+  font-size: 1.1em;
+  width: 60%;
+  background-color: #eccee7;
+  border-top: $mainAccent 10px solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1%;
+  border-bottom: #737176 10px solid;
+}
+
+.inner2 {
+  font-family: $contentFonte;
+  color: #011936;
+  font-size: 1.1em;
+  width: 60%;
+  background-color: #eccee7;
+  border-top: $mainAccent 10px solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1%;
+  border-bottom: #737176 10px solid;
+}

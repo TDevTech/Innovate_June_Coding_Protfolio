@@ -1,4 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+@font-face {
+    font-family: Tarig;
+    src: url('Tabloid\ Scuzzball.otf');
+}
+
+*{box-sizing: border-box;
+    font-family: 'Tarig', sans-serif;}
 body{background-color: honeydew;}
 p{color:black}
 h1{background-color: black; color: rgb(255, 0, 51);}
