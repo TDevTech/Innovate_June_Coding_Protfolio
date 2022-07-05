@@ -1,0 +1,30 @@
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en"> -->
+<!-- <head> -->
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <title>My First Flask App</title> -->
+<!-- </head> -->
+<!-- <body> -->
+    <!-- <h1>My First Flask App</h1> -->
+    <!-- <h2>.....>>> It's   here.......>>>></h2> -->
+    <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui cum nam ea sequi quis aut veniam magnam numquam in! Tempore.</p> -->
+<!-- </body> -->
+<!-- </html> -->
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+<h3>And inbetween is where the content gose</h3>
+<a href="{{ url_for('my_view.index')}}">Return to index</a><br>
+<a href="{{ url_for('my_view.home')}}">Return to Home</a><br>
+<a href="{{ url_for('my_view.portfolio')}}">Visit Our Portfolio</a><br>
+<a href="{{ url_for('my_view.services')}}">Explor Our Services</a><br>
+<a href="{{ url_for('my_view.tarig')}}">Return to Tarig</a><br>
+<a href="{{ url_for('my_view.help')}}">Find Help</a><br>
+<a href="{{ url_for('my_view.login')}}">Click to Login / Sign in</a><br>
+<a href="{{ url_for('my_view.contact')}}"> contact US</a><br>
+<a href="{{ url_for('my_view.about')}}"> About Tarig App</a><br>
+{% endblock %}
