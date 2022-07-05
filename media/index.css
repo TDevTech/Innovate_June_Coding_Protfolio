@@ -1,0 +1,61 @@
+
+/* setting The body color property */
+body{
+    background-color: red;
+}
+
+@media(min-width: 600px){
+    body{
+        background-color: azure;
+    }
+}
+
+@media(min-width: 900px){
+    body{
+        background-color:grey;
+    }
+}
+
+/* This is @media will change to screen text Blue =< 500px , and Red text screen < 500px */
+@media(max-width: 500px){
+    body{
+        color: blue;
+        background-color: black;
+        text-align: center;
+        padding: 5%;
+    }
+}
+/* Screen display orientation */
+@media(orientation: Portrait){
+    .title{
+        color:yellow;
+        background-color: black;
+        text-align: center;
+        padding: 5%;
+        font-size: 6em;
+    }
+ }
+/* Screen display orientation */
+ @media(orientation: Portrait){
+    .subtitle{
+        color:rgb(255, 255, 255);
+        background-color: rgb(174, 0, 255);
+        text-align: center;
+        padding: 5%;
+        font-size: 3em;
+    }
+/* Desktop diplay => Landscape orientation or Mobile disply => Portrait orientation */
+    .desktop, .mobile{
+    display: none;
+    }
+@media(orientation: landscape){
+        .desktop{
+            display: inline-block;
+        }
+    }
+@media(orientation: portrait){
+        .mobile{
+            display: inline-block;
+        }
+    }
+}

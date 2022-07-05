@@ -1,0 +1,158 @@
+
+body{
+    background-color: rgb(205, 205, 205)
+}
+
+.desktop, .mobile{
+    display: none;
+}
+
+
+@media (orientation: landscape){
+     .desktop{
+                display: inline-block;
+
+    }
+}
+
+@media (orientation: portrait){
+    body{
+    background-color:black;
+    color: white;
+    }
+    
+    .mobile{
+               display: inline-block;
+
+   }
+}
+
+
+
+
+
+/* @media(min-width: 600px){ */
+    /* body{ */
+        /* background-color: rgb(0, 0, 0); */
+    /* } */
+/* } */
+/*  */
+/* @media(min-width: 601px){ */
+    /* body{ */
+        /* background-color:rgb(255, 255, 255); */
+    /* } */
+/* } */
+/*  */
+/* Desktop display => light Mode  */
+
+/* @media(.desktop){} */
+/*  */
+/*  */
+/* @media(max-width: 800px){ */
+    /* body{ */
+        /* color: rgb(0, 0, 0); */
+        /* background-color: rgb(255, 255, 255); */
+        /* orientation: landscape; */
+        /* text-align: center; */
+        /* padding: 5%;} */
+    /* } */
+/*  */
+    /* @media(max-width: 401px){ */
+        /* body{ */
+            /* color: rgb(0, 0, 0); */
+            /* background-color: rgb(0, 255, 0); */
+            /* orientation: landscape; */
+            /* text-align: center; */
+            /* padding: 5%;} */
+        /* }     */
+/*  */
+/* @media(max-width: 400px){ */
+        /* body{ */
+            /* color: rgb(255, 255, 255); */
+            /* background-color: rgb(0, 0, 0); */
+/*  */
+            /* text-align: center; */
+            /* padding: 5%;} */
+/*  */
+/*  */
+        /* } */
+/*  */
+    /* @media(orientation: landscape){ */
+        /* .desktop{ */
+            /* display: inline-block; */
+        /* } */
+    /* } */
+/*  */
+/* @media(orientation: Portrait){ */
+    /* .title{ */
+        /* color:rgb(0, 0, 0); */
+        /* background-color: rgb(255, 0, 0); */
+        /* text-align: center; */
+        /* padding: 5%; */
+        /* font-size: 6em; */
+    /* } */
+    /* } */
+/*  */
+     /* .desktop, .mobile{ display: none;} */
+/*              */
+/* @media(orientation: Landscape){ */
+    /* .desktop{ */
+        /* color:rgb(0, 0, 0); */
+        /* background-color: rgb(255, 255, 255); */
+        /* text-align: center; */
+        /* padding: 5%; */
+        /* font-size: 3em; */
+    /* } */
+/*  */
+/* } */
+/*  */
+/* Mobile display => Dark mode */
+/*  */
+/* @media(.mobile){} */
+/*  */
+    /* @media(orientation: portrait){ */
+        /* .mobile{ */
+            /* display: inline-block; */
+        /* } */
+/*  */
+/* @media(orientation: Portrait){ */
+    /* .title{ */
+        /* color:rgb(255, 255, 255); */
+        /* background-color: rgb(0, 0, 0); */
+        /* text-align: center; */
+        /* padding: 5%; */
+        /* font-size: 6em; */
+    /* } */
+/*  */
+/* .desktop, .tab,.mobile{ */
+        /* display: none; */
+        /* } */
+/* @media(orientation: Landscape){ */
+            /* .desktop{ */
+                /* color:rgb(0, 0, 0); */
+                /* background-color: rgb(255, 255, 255); */
+                /* text-align: center; */
+                /* padding: 5%; */
+                /* font-size: 3em; */
+            /* } */
+        /* }        */
+/* @media(orientation: Landscap){ */
+            /* .tab{ */
+            /* color: black; */
+            /* background-color: rgb(0, 255, 0); */
+            /* text-align: center;  */
+            /* padding: 5%; */
+            /* font-size: 3; */
+        /* } */
+    /* }                */
+/* @media(orientation: Portrait){ */
+            /* .mobile{ */
+            /* color:rgb(255, 255, 255); */
+            /* background-color: rgb(0, 0, 0); */
+            /* text-align: center; */
+            /* padding: 5%; */
+            /* font-size: 3em; */
+            /* } */
+/* } */
+/*  */
+
