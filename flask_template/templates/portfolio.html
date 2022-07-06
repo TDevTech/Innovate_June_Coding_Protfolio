@@ -1,12 +1,24 @@
 
-    {% extends 'base.html' %}
+{% extends 'base.html' %}
+
+<title>Tarig Flask App - PORTFOLIO Page</title>
+
+
+{% block content %}
+
+<h1>My Tarig Flask App Home Page</h1>
+<h2> ...This is Portfolio page from Tarig Web-pages app ....!!!</h2>
+<p>Read here=> about Portfolio.</p>
     
-    <title>Tarig Flask App - PORTFOLIO Page</title>
+<a href="{{ url_for('my_view.index')}}">Return to Index</a><br>
+<a href="{{ url_for('my_view.home')}}">Wellcome Home</a><br>
+<a href="{{ url_for('my_view.portfolio')}}">Visit Portfolio</a><br>
+<a href="{{ url_for('my_view.services')}}">Explor Services</a><br>
+<a href="{{ url_for('my_view.tarig')}}">Click to Tarig</a><br>
+<a href="{{ url_for('my_view.help')}}">Find Help</a><br>
+<a href="{{ url_for('my_view.login')}}">Click to Login / Sign in</a><br>
+<a href="{{ url_for('my_view.contact')}}">Contact US</a><br>
+<a href="{{ url_for('my_view.about')}}">About Tarig App</a><br>
 
-
-    {% block content %}
-    <h1>My Tarig Flask App Home Page</h1>
-    <h2> ...This is Portfolio page from Tarig Web-pages app ....!!!</h2>
-    <p>Read here=> about Portfolio.</p> 
-    {% endblock %}
+{% endblock %}
 

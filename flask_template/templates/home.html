@@ -1,13 +1,13 @@
 
 {% extends 'base.html' %}
 
-    <title>Tarig Flask App - HOME Page</title>
+<title>Tarig Flask App - HOME Page</title>
 
 
-    {% block content %}
-    <h1>My Tarig Flask App Home Page</h1>
-    <h2> ...This is Home page first Tarig Web-pages app ....!!!</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui cum nam ea sequi quis aut veniam magnam numquam in! Tempore.</p> 
+{% block content %}
+<h1>My Tarig Flask App Home Page</h1>
+<h2> ...This is Home page first Tarig Web-pages app ....!!!</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui cum nam ea sequi quis aut veniam magnam numquam in! Tempore.</p> 
 
 <a href="{{ url_for('my_view.index')}}">Return to Index</a><br>
 <a href="{{ url_for('my_view.home')}}">Wellcome Home</a><br>
@@ -19,4 +19,4 @@
 <a href="{{ url_for('my_view.contact')}}">Contact US</a><br>
 <a href="{{ url_for('my_view.about')}}">About Tarig App</a><br>
 
-    {% endblock %}
+{% endblock %}
