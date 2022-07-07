@@ -5,29 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{url_for('static',filename = 'main.css')}}">
-    <script type="text/javascript" scr="{{url_for('static',filename='app.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static',filename='app.js')}}"></script>
 
     <title>JavaScript Events</title>
-      
-    <h1>Wellcom JavaScript Events App</h1>
-<nav>
-<p>====================================================</p>
-
-<a href="{{ url_for('my_view.admin')}}">Admin</a><br>
-<a href="{{ url_for('my_view.index')}}">Index</a><br>
-<a href="{{ url_for('my_view.index')}}">Home</a><br>
-<a href="{{ url_for('my_view.page1')}}">Visit Page1</a><br>
-<a href="{{ url_for('my_view.page2')}}">Visit Page2</a><br>
-<a href="{{ url_for('my_view.page3')}}">Visit Page3</a><br>
-<a href="{{ url_for('my_view.page4')}}">Visit Page4</a><br>
-<a href="{{ url_for('my_view.page5')}}">Visit Page5</a><br>
-
-<p>====================================================</p>
-</nav>
-
 </head>
 
-  <body>
+<body onload="darkCheck()">  
+
+    <!-- <h1>Wellcome JavaScript Events App</h1> -->
+<nav>
+<!-- <h2><p>===============================================================</p></h2> -->
+<button onclick = a href="{{ url_for('my_view.admin')}}">Admin</a></button>
+<!-- <a href="{{ url_for('my_view.index')}}">Index</a> -->
+<a href="{{ url_for('my_view.index')}}">Home</a>
+<a href="{{ url_for('my_view.page1')}}">Visit Page1</a>
+<a href="{{ url_for('my_view.page2')}}">Visit Page2</a>
+<a href="{{ url_for('my_view.page3')}}">Visit Page3</a>
+<a href="{{ url_for('my_view.page4')}}">Visit Page4</a>
+<a href="{{ url_for('my_view.page5')}}">Visit Page5</a>
+<br>
+<!-- <h2><p>==============================================================</p></h2> -->
+  
+</nav>
+<!-- <div class="flex-container-h"> -->
+  <!-- <div> -->
+  <!-- <h1>JavaScript Events</h1> -->
+  <!-- <div class="flex-container-h"> -->
+      <!-- <button onclick=functionName()>Dark Mode</button> -->
+  <!-- </div> -->
+
 
   {% block content %}
 
