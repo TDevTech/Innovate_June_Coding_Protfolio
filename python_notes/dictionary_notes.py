@@ -157,6 +157,4 @@ songs_dic.append({
             "Song_name":"Affirmation",
             "Genre" :"Smooth Jazz",
             "Release_year": "1976" })
-    print (songs_dict)          
-
-
+    print (songs_dict)

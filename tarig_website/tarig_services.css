@@ -10,7 +10,7 @@
     height: 100vh;
     background-image: linear-gradient(rgb(48, 48, 48), rgb(48, 48, 48));
     /* background-color: white, white; */
-    background-image: url("dt0.jpg");
+    background-image: url("sb1.jpg");
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -88,10 +88,10 @@ button{
     background-size: cover;
     transition: transform 0.5s;
 }
-.card1{background-image: url("Anguilla00.jpg");}
-.card2{background-image: url("maldives1.jpg");}
-.card3{background-image: url("mauritius.jpg");}
-.card4{background-image: url("vancouver02.jpg");}
+.card1{background-image: url("sd4.jpg");}
+.card2{background-image: url("ni0.jpg");}
+.card3{background-image: url("ito2.png");}
+.card4{background-image: url("ts3.jpg");}
 
 .card:hover{transform: translateY(-10px);}
 
