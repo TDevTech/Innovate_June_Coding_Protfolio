@@ -4,10 +4,10 @@
 
 <h1>404 Not Found Page</h1>
 <h2>...UH OH...!!! You're lost...</h2>
-<p>{{ The page you are looking for does not exist. Maybe this page moved? Got deleted? Is hiding out in quarantine? Never existed in the first place?
-   How you got here is a mystery. But you can click the home button to go back to the homepage. }}
+<p>The page you are looking for does not exist. Maybe this page moved? Got deleted? Is hiding out in quarantine? Never existed in the first place?
+   How you got here is a mystery. But you can click the home button to go back to the homepage.
 </p>
 <br>
-<p><a href="{{ url_for('index') }}">go somewhere nice</a></p>
+<p><a href="{{ url_for('my_view.index') }}">go somewhere nice</a></p>
 
 {% endblock %}

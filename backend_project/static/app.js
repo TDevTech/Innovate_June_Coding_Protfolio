@@ -54,8 +54,13 @@ function darkCheck()
         
         for (const x of mainText){
             x.classList.toggle("dark-mode")
-        }  
+        } 
+        for (const y of exampleText)
+        {
+            y.classList.toggle("dark-mode")
+        } 
     }
+    
 }
 
 // ------------

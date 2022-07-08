@@ -64,6 +64,6 @@ def admin_redirect():
 def indx_redirect():
     return redirect(url_for("my_view.index"))
 
-@my_view.errorhandler(404)
-def not_found():
-     return render_template("404.html")
+# @my_view.errorhandler(404)
+# def not_found():
+    #  return render_template("404.html")
